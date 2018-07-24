@@ -1,0 +1,43 @@
+/*add font information*/
+
+body{
+    background: rgba(0, 0, 0, 0.05);
+}
+
+header{
+    /*make it so that topmenu aligns with header*/
+    padding: 20px;
+}
+
+header h1{
+    float: left;
+}
+.topmenu{
+    float: right;
+}
+
+.topmenu a{
+    text-decoration-color: darkgrey;
+    text-decoration: none;
+}
+
+.topbox{
+    text-align: center;
+}
+
+
+.content{
+    text-align: center;
+    padding-top: 5%;
+}
+
+.content p{
+    padding: 5%;
+}
+
+.footer {
+    text-align: center;
+    font-family: Helvetica;
+    font-size: 10pt;
+    padding: 20px;
+}
