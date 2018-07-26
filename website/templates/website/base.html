@@ -1,0 +1,37 @@
+{% load static %}
+
+<html>
+  <head>
+    <title>Liberal Arts Seminar :: LAS</title>
+    <link rel="stylesheet" href={% static 'css/style.css' %}>
+    <!--link to more stylesheets if necessary -->
+  </head>
+
+  <body>
+    <div class="site-title">
+      <h1><a href="index.html">LIBERAL ARTS SEMINAR</a></h1>
+      <!-- also needs a top bar menu to be improved -->
+      <div class = "top-menu">
+        <a href="ideals.html"> IDEALS </a>
+        <a href="members.html"> MEMBERS </a>
+        <a href="projects.html"> PROJECTS </a>
+        <a href="presentations.html"> PRESENTATIONS </a>
+      </div>
+    </div>
+
+    <div class="content-box">
+      <!-- these template forms are copied from the django girls tutorial, not 100% sure how these boxes work, may alter design as necessary -->
+      <!-- will have to consider that current design requires photos & title of page in header to change with each page loaded, may have to alter location of blocks! -->
+      <div class="row">
+        <div class ="col-md-8">
+          {% block content %}
+          {% endblock %}
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+    </div>
+
+  </body>
+</html>
