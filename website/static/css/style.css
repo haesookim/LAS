@@ -1,9 +1,51 @@
-.site-title{
-  background-color: brown;
-  margin-top: 0;
-  padding: 10px 10px 10px 10px;
+*{
+  margin:0;
+  padding : 0;
 }
 
-h1 a{
-  color: #FCA205;
+/*top menu bar Layouts*/
+.top-header{
+  background-color: #1c1b17;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  width:100%;
+}
+
+.site-title{
+  display: inline-block;
+  padding: 20px 0px 5px 10px;
+  margin-left:5%;
+}
+
+.menu-element{
+  margin: 5px 0px 5px 10px;
+  display: inline-block;
+  font-size: 17px;
+}
+
+.top-menu{
+  float:right;
+  display: inline-block;
+  padding: 23px 10px 10px 0px;
+  text-decoration-color: #FFFFFF;
+  margin-right: 5%;
+}
+
+/*top menu bar text designs*/
+
+a {
+  text-decoration: none;
+}
+
+h1{
+  font-size: 25px;
+}
+
+.menu-element a, .menu-element a:visited, h1 a, h1 a:visited{
+  color: #FFFFFF;
+}
+
+.menu-element a:hover, h1 a:hover{
+  color:#B6B5B9;
 }
