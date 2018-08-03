@@ -3,6 +3,24 @@
   padding : 0;
 }
 
+@font-face {
+  font-family: 'Nanum Square';
+  src: url('./fonts/NanumSquareRegular.ttf');
+  font-weight: Regular;
+}
+
+@font-face {
+  font-family: 'Nanum Square';
+  src: url('./fonts/NanumSquarBold.ttf');
+  font-weight: Bold;
+}
+
+@font-face {
+  font-family: 'Nanum Square';
+  src: url('./fonts/NanumSquareExtrabold.ttf');
+  font-weight: Extrabold;
+}
+
 /*top menu bar Layouts*/
 .top-header{
   background-color: #1c1b17;
@@ -13,20 +31,22 @@
 
 .site-title{
   display: inline-block;
-  padding: 20px 0px 5px 10px;
+  padding: 20px 0px 10px 10px;
   margin-left:5%;
+  font-family: 'Nanum Gothic', Bold;
 }
 
 .menu-element{
   margin: 5px 0px 5px 10px;
   display: inline-block;
   font-size: 17px;
+  font-family: 'Nanum Gothic'
 }
 
 .top-menu{
   float:right;
   display: inline-block;
-  padding: 23px 10px 10px 0px;
+  padding: 23px 10px 15px 0px;
   text-decoration-color: #FFFFFF;
   margin-right: 5%;
 }
@@ -62,15 +82,18 @@ h1{
   text-align: center;
   font-size: 37px;
   color: #FFFFFF;
+  font-family: 'Hind';
 }
 
 .page-subtitle{
   text-align: center;
   font-size: 20px;
+  font-family: 'Nanum Square';
 }
 
 .page-text{
   margin: 20px 20%;
   text-align: center;
   font-size: 18px;
+  font-family: 'Nanum Square';
 }
