@@ -5,19 +5,19 @@
 
 @font-face {
   font-family: 'Nanum Square';
-  src: url('./fonts/NanumSquareRegular.ttf');
+  src: url('./fonts/NanumSquareOTFRegular.ttf');
   font-weight: Regular;
 }
 
 @font-face {
   font-family: 'Nanum Square';
-  src: url('./fonts/NanumSquarBold.ttf');
+  src: url('./fonts/NanumSquareOTFBold.ttf');
   font-weight: Bold;
 }
 
 @font-face {
   font-family: 'Nanum Square';
-  src: url('./fonts/NanumSquareExtrabold.ttf');
+  src: url('./fonts/NanumSquareOTFExtraBold.ttf');
   font-weight: Extrabold;
 }
 
